@@ -1,0 +1,32 @@
+<manifest package="me.tikitoo.eventbusdemo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".FirstStickyActivity" />
+
+        <activity android:name="cn.trinea.android.demo.eventbus.MainActivity" />
+        <activity android:name="cn.trinea.android.demo.eventbus.BaseActivity" />
+        <activity android:name="cn.trinea.android.demo.eventbus.BaseFragmentActivity" />
+        <activity android:name="cn.trinea.android.demo.eventbus.DiffThreadModeActivity" />
+        <activity android:name="cn.trinea.android.demo.eventbus.SendOrderedEventActivity" />
+        <activity android:name="cn.trinea.android.demo.eventbus.SendSelfDefinedEventActivity" />
+        <activity android:name="cn.trinea.android.demo.eventbus.SendSimplestEventActivity" />
+        <activity android:name="cn.trinea.android.demo.eventbus.SendStickyEventActivity" />
+        <activity android:name="cn.trinea.android.demo.eventbus.ViewPagerDemo" />
+    </application>
+
+</manifest>
